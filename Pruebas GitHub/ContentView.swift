@@ -24,10 +24,8 @@ struct ContentView: View {
                         Text("Item at \(item.timestamp!, formatter: itemFormatter)")
                     } label: {
                         Text(item.timestamp!, formatter: itemFormatter)
-                        Text("Prueba 1")
-                        Text("Prueba2")
-                        Text("Prueba3")
-                        Text("Prueba4")
+                        Text("Campo2")
+                            .font(.headline)
                     }
                     
                 }
